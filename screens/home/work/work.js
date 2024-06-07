@@ -10,7 +10,7 @@ export default function Work() {
       <div className={cn("container")}>
         <div className={styles.content}>
           <div className={cn("subheading-x-large", styles.title)}>
-            Discover our works
+            Where the magic happens
           </div>
           <p className={cn("paragraph-x-large", styles.description)}>
             A showcase of digital masterpieces, each a testament to our
