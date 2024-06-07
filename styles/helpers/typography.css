@@ -141,7 +141,7 @@
   font-size: 18px;
   line-height: 24px;
   letter-spacing: -0.24px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .label-medium {
@@ -149,7 +149,7 @@
   font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.18px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .label-small {
@@ -157,6 +157,7 @@
   font-size: 14px;
   line-height: 20px;
   letter-spacing: -0.08px;
+  font-weight: 600;
 }
 
 .label-x-small {
@@ -164,4 +165,5 @@
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0px;
+  font-weight: 600;
 }
