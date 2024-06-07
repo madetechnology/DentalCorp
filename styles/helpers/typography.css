@@ -137,7 +137,7 @@
 }
 
 .label-large {
-  font-family: var(--font-dm-sans);
+  font-family: var(--font-plus-jakarta-sans);
   font-size: 18px;
   line-height: 24px;
   letter-spacing: -0.24px;
@@ -145,7 +145,7 @@
 }
 
 .label-medium {
-  font-family: var(--font-dm-sans);
+  font-family: var(--font-plus-jakarta-sans);
   font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.18px;
@@ -153,14 +153,14 @@
 }
 
 .label-small {
-  font-family: var(--font-dm-sans);
+  font-family: var(--font-plus-jakarta-sans);
   font-size: 14px;
   line-height: 20px;
   letter-spacing: -0.08px;
 }
 
 .label-x-small {
-  font-family: var(--font-dm-sans);
+  font-family: var(--font-plus-jakarta-sans);
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0px;

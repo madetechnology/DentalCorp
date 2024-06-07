@@ -65,6 +65,35 @@
   stroke: var(--white);
 }
 
+.button-stroke-small {
+  background: none;
+  border: none;
+  box-shadow: 0 0 0 1.5px var(--slate-200) inset;
+  color: var(--black);
+  background: var(--white);
+  height: 48px;
+  min-height: 48px;
+  padding: 0 16px;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.08px;
+}
+
+.button-stroke-small svg {
+  stroke: var(--black);
+}
+
+.button-stroke-small:hover,
+.button-stroke-small:active {
+  background: var(--black);
+  box-shadow: 0 0 0 2px var(--black) inset;
+  color: var(--white);
+}
+
+.button-stroke-small:hover svg {
+  stroke: var(--white);
+}
+
 .button-black {
   border: none;
   background: var(--slate-950);

@@ -1,0 +1,16 @@
+.header {
+  height: 112px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--slate-200);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: 600;
+}
