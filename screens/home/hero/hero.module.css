@@ -23,12 +23,12 @@
 }
 
 .social svg {
-  stroke: var(--slate-400);
-  transition: stroke 0.2s ease;
+  fill: var(--slate-400);
+  transition: fill 0.2s;
 }
 
 .social svg:hover {
-  stroke: var(--black);
+  fill: var(--black);
 }
 
 .image {
