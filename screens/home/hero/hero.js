@@ -19,14 +19,14 @@ const socials = [
     icon: icons.Linkedin,
   },
   {
+    name: "Twitter",
+    url: "https://twitter.com/",
+    icon: icons.Twitter,
+  },
+  {
     name: "Dribbble",
     url: "https://dribbble.com/",
     icon: icons.Dribbble,
-  },
-  {
-    name: "Facebook",
-    url: "https://www.facebook.net/",
-    icon: icons.Facebook,
   },
 ];
 
