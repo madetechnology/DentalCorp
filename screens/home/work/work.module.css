@@ -10,6 +10,12 @@
   color: var(--slate-500);
 }
 
+@media (max-width: 1024px) {
+  .content {
+    margin-top: 64px;
+  }
+}
+
 @media (max-width: 810px) {
   .content {
     flex-direction: column;
@@ -22,5 +28,11 @@
     line-height: 32px;
     letter-spacing: -0.26px;
     font-family: var(--font-inter);
+  }
+}
+
+@media (max-width: 390px) {
+  .content {
+    margin-top: 48px;
   }
 }
