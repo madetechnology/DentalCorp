@@ -1,11 +1,11 @@
 import React from "react";
 import cn from "classnames";
 import styles from "./hero.module.css";
-import Marquee from "react-fast-marquee";
 import AnimatedButton from "@/components/animated-button";
 import Mouse from "@/components/mouse";
 import icons from "@/constants/icons";
 import Magnetic from "@/components/magnetic";
+import TextMarquee from "@/components/text-marquee";
 
 const socials = [
   {
@@ -33,11 +33,9 @@ const socials = [
 export default function Hero() {
   return (
     <section className={cn("section")}>
-      <div className={styles.container}>
-        <Marquee gradient={true} autoFill className={styles.marquee}>
-          <h1 className={cn("hero", styles.title)}>Timeless.</h1>
-        </Marquee>
+      <TextMarquee>Timeless.</TextMarquee>
 
+      <div className={cn("container", styles.container)}>
         <div className={styles.content}>
           <AnimatedButton>
             <p className={cn("label-large")}>See our work</p>
@@ -67,12 +65,12 @@ export default function Hero() {
             ))}
           </div>
         </div>
+      </div>
 
-        <div className={styles.image}>
-          <Mouse className={styles.mouse} />
+      <div className={styles.image}>
+        <Mouse className={styles.mouse} />
 
-          <img src="/images/hero-image.webp" alt="Hero" />
-        </div>
+        <img src="/images/hero-image.webp" alt="Hero" />
       </div>
     </section>
   );
