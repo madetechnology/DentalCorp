@@ -9,7 +9,13 @@ export default function Work() {
       <TextMarquee>Our Work.</TextMarquee>
       <div className={cn("container")}>
         <div className={styles.content}>
-          <div>Hello</div>
+          <div className={cn("subheading-x-large", styles.title)}>
+            Discover our works
+          </div>
+          <p className={cn("paragraph-x-large", styles.description)}>
+            A showcase of digital masterpieces, each a testament to our
+            creativity and expertise.
+          </p>
         </div>
       </div>
     </section>
