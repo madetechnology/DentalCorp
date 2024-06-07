@@ -1,8 +1,8 @@
 import React from "react";
 import cn from "classnames";
-import styles from "./hamburger.module.css";
+import styles from "./burger.module.css";
 
-export default function Hamburger({ className, visibleNav, setVisibleNav }) {
+export default function Burger({ className, visibleNav, setVisibleNav }) {
   return (
     <button
       className={cn(styles.button, className)}

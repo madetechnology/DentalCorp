@@ -3,7 +3,7 @@
 import React from "react";
 import cn from "classnames";
 import styles from "./header.module.css";
-import Hamburger from "../hamburger";
+import Burger from "../burger";
 
 const links = [
   {
@@ -59,8 +59,8 @@ export default function Header() {
             Get in touch
           </button>
 
-          <Hamburger
-            className={styles.hamburger}
+          <Burger
+            className={styles.burger}
             visibleNav={visibleNav}
             setVisibleNav={setVisibleNav}
           />
