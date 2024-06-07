@@ -27,6 +27,7 @@
 }
 
 .logo {
+  z-index: 10;
   font-weight: 600;
 }
 
@@ -81,5 +82,12 @@
 
   .wrapper .burger {
     display: flex;
+  }
+}
+
+@media (max-width: 390px) {
+  .header {
+    padding-top: 48px;
+    padding-bottom: 24px;
   }
 }
