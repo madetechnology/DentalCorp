@@ -2,6 +2,7 @@ import Layout from "@/components/Layout";
 import Hero from "./hero";
 import Story from "./story";
 import Slogan from "../universal/slogan";
+import Video from "./video";
 
 export default function AboutPage() {
   return (
@@ -9,6 +10,7 @@ export default function AboutPage() {
       <Hero />
       <Story />
       <Slogan />
+      <Video />
     </Layout>
   );
 }
