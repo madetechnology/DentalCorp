@@ -26,15 +26,10 @@ img {
   max-width: 100%;
 }
 
-.embla {
-  overflow: hidden;
-}
-.embla__container {
-  display: flex;
-}
-.embla__slide {
-  flex: 0 0 100%;
-  min-width: 0;
+.index {
+  position: sticky;
+  background-color: var(--white);
+  z-index: 2;
 }
 
 @media (max-width: 430px) {
