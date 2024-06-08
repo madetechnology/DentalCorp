@@ -6,6 +6,7 @@ import Works from "./works";
 import Services from "../universal/services";
 import Clients from "../universal/clients";
 import Slogan from "./slogan";
+import News from "./news";
 
 export default function HomePage() {
   return (
@@ -16,6 +17,7 @@ export default function HomePage() {
       <Services />
       <Clients />
       <Slogan />
+      <News />
     </Layout>
   );
 }
