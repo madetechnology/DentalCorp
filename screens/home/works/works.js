@@ -37,7 +37,7 @@ const works = [
 export default function Works() {
   return (
     <section className={cn("section")}>
-      <TextMarquee>Our Work.</TextMarquee>
+      <TextMarquee>Our work.</TextMarquee>
       <div className={cn("container", styles.container)}>
         <div className={styles.content}>
           <div className={cn("subheading-x-large", styles.title)}>
