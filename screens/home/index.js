@@ -5,7 +5,7 @@ import AboutUs from "./about-us";
 import Works from "./works";
 import Services from "../universal/services";
 import Clients from "../universal/clients";
-import Slogan from "./slogan";
+import Slogan from "../universal/slogan";
 import News from "./news";
 
 export default function HomePage() {

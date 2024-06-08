@@ -1,0 +1,32 @@
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.description {
+  color: var(--slate-500);
+}
+
+@media (max-width: 390px) {
+  .wrapper {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .column {
+    gap: 24px;
+  }
+}
