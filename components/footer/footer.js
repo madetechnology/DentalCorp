@@ -5,30 +5,32 @@ import TextMarquee from "../text-marquee";
 
 const links = [
   {
+    id: 1,
     title: "Services",
     links: [
-      { title: "Work", url: "/about" },
-      { title: "About", url: "/about" },
-      { title: "Services", url: "/services" },
-      { title: "Approach", url: "/approach" },
-      { title: "News", url: "/news" },
+      { id: 1, title: "Work", url: "/about" },
+      { id: 2, title: "About", url: "/about" },
+      { id: 3, title: "Services", url: "/services" },
+      { id: 4, title: "Approach", url: "/approach" },
+      { id: 5, title: "News", url: "/news" },
     ],
   },
   {
+    id: 2,
     title: "Socials",
     links: [
-      { title: "Facebook", url: "/facebook" },
-      { title: "Instagram", url: "/instagram" },
-      { title: "Twitter", url: "/twitter" },
-      { title: "LinkedIn", url: "/linkedin" },
+      { id: 6, title: "Facebook", url: "/facebook" },
+      { id: 7, title: "Instagram", url: "/instagram" },
+      { id: 8, title: "Twitter", url: "/twitter" },
+      { id: 9, title: "LinkedIn", url: "/linkedin" },
     ],
   },
 ];
 
 const guides = [
-  { title: "Style guide", url: "/" },
-  { title: "Licenses", url: "/" },
-  { title: "Changelog", url: "/" },
+  { id: 1, title: "Style guide", url: "/" },
+  { id: 2, title: "Licenses", url: "/" },
+  { id: 3, title: "Changelog", url: "/" },
 ];
 
 export default function Footer() {
@@ -53,13 +55,14 @@ export default function Footer() {
 
           <div className={styles.wrapper}>
             {links.map((group) => (
-              <div className={styles.column}>
+              <div key={group.id} className={styles.column}>
                 <div className={cn("subheading-medium", styles.title)}>
                   {group.title}
                 </div>
                 <div className={styles.links}>
                   {group.links.map((link) => (
                     <a
+                      key={link.id}
                       href={link.url}
                       className={cn("label-medium", styles.link)}
                     >
@@ -81,7 +84,11 @@ export default function Footer() {
 
           <div className={styles.guides}>
             {guides.map((guide) => (
-              <a href={guide.url} className={cn("label-small", styles.guide)}>
+              <a
+                key={guide.id}
+                href={guide.url}
+                className={cn("label-small", styles.guide)}
+              >
                 {guide.title}
               </a>
             ))}
