@@ -14,7 +14,7 @@ const links = [
   },
   {
     label: "About",
-    url: "/search",
+    url: "/about",
   },
   {
     label: "Services",
@@ -25,8 +25,8 @@ const links = [
     url: "/approach",
   },
   {
-    label: "Insights",
-    url: "/insights",
+    label: "News",
+    url: "/news",
   },
 ];
 
