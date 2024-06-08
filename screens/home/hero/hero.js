@@ -48,7 +48,7 @@ export default function Hero() {
         </div>
 
         <div className={styles.stack}>
-          <p className={cn("paragraph-large", styles.text)}>Find me on:</p>
+          <p className={cn("paragraph-large", styles.text)}>Find us on:</p>
 
           <div className={styles.socials}>
             {socials.map((social, index) => (
