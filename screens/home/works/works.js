@@ -36,7 +36,7 @@ const works = [
 
 export default function Works() {
   return (
-    <section className={cn("section")}>
+    <section id="works" className={cn("section")}>
       <TextMarquee>Our work.</TextMarquee>
       <div className={cn("container", styles.container)}>
         <div className={styles.content}>

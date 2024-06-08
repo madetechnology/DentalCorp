@@ -6,6 +6,7 @@ import gsap from "gsap";
 import Magnetic from "../magnetic";
 
 export default function AnimatedButton({
+  handleClick,
   children,
   backgroundColor = "var(--white)",
   ...attributes
@@ -50,6 +51,7 @@ export default function AnimatedButton({
         onMouseLeave={() => {
           manageMouseLeave();
         }}
+        onClick={handleClick}
         {...attributes}
       >
         {children}
