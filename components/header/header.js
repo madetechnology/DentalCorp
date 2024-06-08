@@ -9,8 +9,8 @@ import Link from "next/link";
 
 const links = [
   {
-    label: "Work",
-    url: "/work",
+    label: "Works",
+    url: "/works",
   },
   {
     label: "About",

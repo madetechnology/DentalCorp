@@ -4,37 +4,10 @@ import styles from "./works.module.css";
 import TextMarquee from "@/components/text-marquee";
 import Work from "@/components/work";
 import icons from "@/constants/icons";
+import Link from "next/link";
+import mock from "@/constants/mock";
 
-const works = [
-  {
-    title: "Dogma",
-    description:
-      "A modern, minimalist design that showcases your brand in the best possible light.",
-    image: "/works/dogma.webp",
-    href: "/works/dogma",
-  },
-  {
-    title: "Elysium",
-    description:
-      "A sleek, sophisticated design that makes your brand stand out from the rest.",
-    image: "/works/bonair.webp",
-    href: "/works/elysium",
-  },
-  {
-    title: "Polaris",
-    description:
-      "A clean, contemporary design that puts your brand front and center.",
-    image: "/works/polaris.webp",
-  },
-  {
-    title: "Aurora",
-    description:
-      "A fresh, modern design that captures the essence of your brand.",
-    image: "/works/aurora.webp",
-  },
-];
-
-export default function Works() {
+export default function Works({ works = mock.works }) {
   return (
     <section id="works" className={cn("section")}>
       <TextMarquee>Our work.</TextMarquee>
@@ -50,15 +23,15 @@ export default function Works() {
         </div>
 
         <div className={styles.works}>
-          {works.map((work, index) => (
-            <Work key={index} work={work} />
+          {works.slice(0, 4).map((work) => (
+            <Work key={work.id} work={work} />
           ))}
         </div>
 
-        <button className={cn("button-stroke", styles.button)}>
+        <Link href="/works" className={cn("button-stroke", styles.button)}>
           View All
           {icons.ArrowRight}
-        </button>
+        </Link>
       </div>
     </section>
   );

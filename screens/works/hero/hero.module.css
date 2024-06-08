@@ -10,6 +10,13 @@
   color: var(--slate-500);
 }
 
+.works {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
 @media (max-width: 1024px) {
   .content {
     margin: 64px auto 0;
@@ -50,5 +57,9 @@
   .content {
     flex-direction: column;
     gap: 32px;
+  }
+
+  .works {
+    gap: 48px;
   }
 }
