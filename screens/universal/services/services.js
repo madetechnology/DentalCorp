@@ -15,13 +15,13 @@ const services = [
     number: "02",
     title: "Design",
     description:
-      "Craft beautiful, engaging experiences that inspire your audience and drive growth. Our design team blends form and function to bring your brand to life.",
+      "Where creativity meets functionality. Our designs breathe life into ideas, crafting visually stunning experiences that captivate audiences and leave a lasting impression.",
   },
   {
     number: "03",
     title: "Development",
     description:
-      "Build a solid foundation with a custom solution designed and developed to meet your unique needs. Our team of experts will bring your vision to life.",
+      "Turning concepts into reality. Our expert developers bring innovation to life, crafting robust solutions that stand the test of time and propel your brand forward in the digital realm.",
   },
 ];
 

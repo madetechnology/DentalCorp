@@ -3,7 +3,8 @@ import Hero from "./hero";
 import Layout from "@/components/Layout";
 import AboutUs from "./about-us";
 import Works from "./works";
-import Services from "./services";
+import Services from "../universal/services";
+import Clients from "../universal/clients";
 
 export default function HomePage() {
   return (
@@ -12,6 +13,7 @@ export default function HomePage() {
       <AboutUs />
       <Works />
       <Services />
+      <Clients />
     </Layout>
   );
 }
