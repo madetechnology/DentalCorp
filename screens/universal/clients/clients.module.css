@@ -25,6 +25,7 @@
 
 .client svg {
   width: 120px;
+  height: auto;
 }
 
 .client:nth-child(1),
@@ -57,6 +58,10 @@
   .clients {
     margin-top: 64px;
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .client svg {
+    width: 90px;
   }
 
   .client:nth-child(1) {
