@@ -36,10 +36,19 @@
     letter-spacing: -0.26px;
     font-family: var(--font-inter);
   }
+
+  .works {
+    margin-top: 64px;
+    gap: 64px;
+  }
 }
 
 @media (max-width: 390px) {
   .content {
     margin-top: 48px;
+  }
+
+  .works {
+    gap: 48px;
   }
 }

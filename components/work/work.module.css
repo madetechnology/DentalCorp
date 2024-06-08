@@ -94,6 +94,7 @@
 @media (max-width: 390px) {
   .work {
     flex-direction: column;
+    gap: 24px;
   }
 
   .work:nth-child(2n) {
