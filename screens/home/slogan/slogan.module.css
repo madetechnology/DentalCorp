@@ -1,0 +1,32 @@
+.content {
+  max-width: 800px;
+  margin-left: auto;
+}
+
+.button {
+  margin-top: 32px;
+}
+
+@media (max-width: 1024px) {
+  .title {
+    font-size: 64px;
+    line-height: 72px;
+    letter-spacing: -0.96px;
+  }
+}
+
+@media (max-width: 810px) {
+  .title {
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -0.8px;
+  }
+}
+
+@media (max-width: 390px) {
+  .title {
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.64px;
+  }
+}
