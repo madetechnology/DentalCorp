@@ -26,6 +26,12 @@ img {
   max-width: 100%;
 }
 
+.index {
+  position: sticky;
+  background-color: var(--white);
+  z-index: 2;
+}
+
 @media (max-width: 430px) {
   html {
     background-color: var(--n8);
