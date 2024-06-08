@@ -5,6 +5,11 @@
   justify-content: space-between;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
 .description {
   max-width: 600px;
   color: var(--slate-500);
@@ -17,9 +22,17 @@
   gap: 80px;
 }
 
+.button {
+  margin: 80px auto 0;
+}
+
 @media (max-width: 1024px) {
   .content {
     margin-top: 64px;
+  }
+
+  .button {
+    margin: 64px auto 0;
   }
 }
 
@@ -41,6 +54,10 @@
     margin-top: 64px;
     gap: 64px;
   }
+
+  .button {
+    margin: 64px auto 0;
+  }
 }
 
 @media (max-width: 390px) {
@@ -50,5 +67,9 @@
 
   .works {
     gap: 48px;
+  }
+
+  .button {
+    margin: 48px auto 0;
   }
 }

@@ -3,6 +3,7 @@ import cn from "classnames";
 import styles from "./works.module.css";
 import TextMarquee from "@/components/text-marquee";
 import Work from "@/components/work";
+import icons from "@/constants/icons";
 
 const works = [
   {
@@ -37,7 +38,7 @@ export default function Works() {
   return (
     <section className={cn("section")}>
       <TextMarquee>Our Work.</TextMarquee>
-      <div className={cn("container")}>
+      <div className={cn("container", styles.container)}>
         <div className={styles.content}>
           <div className={cn("subheading-x-large", styles.title)}>
             Where the magic happens
@@ -53,6 +54,11 @@ export default function Works() {
             <Work key={index} work={work} />
           ))}
         </div>
+
+        <button className={cn("button-stroke", styles.button)}>
+          View All
+          {icons.ArrowRight}
+        </button>
       </div>
     </section>
   );
