@@ -3,20 +3,29 @@
   margin: 0 auto;
 }
 
-.input {
+.form {
   position: relative;
   margin-top: 48px;
   border-bottom: 1px solid var(--slate-200);
+  transition: border-color 0.2s;
 }
 
-.input input {
+.form:hover {
+  border-color: var(--black);
+}
+
+.form input {
   color: var(--black);
   width: 100%;
   padding: 24px 0;
 }
 
-.input input::placeholder {
+.form input::placeholder {
   color: var(--slate-500);
+}
+
+.form input:focus {
+  background-color: none;
 }
 
 .button {
@@ -31,4 +40,8 @@
   width: 38px;
   height: 38px;
   stroke: var(--black);
+}
+
+.success {
+  margin-top: 8px;
 }
