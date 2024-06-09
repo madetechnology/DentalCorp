@@ -36,6 +36,14 @@
   padding: 24px 0;
 }
 
+.input textarea::placeholder {
+  color: var(--slate-500);
+}
+
+.input textarea:focus {
+  background-color: none;
+}
+
 .button {
   margin-top: 24px;
   align-self: flex-start;
