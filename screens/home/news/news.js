@@ -3,43 +3,9 @@ import cn from "classnames";
 import styles from "./news.module.css";
 import TextMarquee from "@/components/text-marquee";
 import NewsPost from "@/components/news-post";
+import mock from "@/constants/mock";
 
-const posts = [
-  {
-    id: 1,
-    image: "/posts/front-end-trends.webp",
-    title: "Front-end trends",
-    description:
-      "Learn about the latest front-end trends and how they can help you build better websites.",
-    date: "2024-08-01",
-  },
-  {
-    id: 2,
-    image: "/posts/ui-design-essentials.webp",
-    title: "UI design essentials",
-    description:
-      "Discover the essentials of UI design and how they can help you create better user experiences.",
-    date: "2024-08-04",
-  },
-  {
-    id: 3,
-    image: "/posts/design-harmony.webp",
-    title: "Design harmony",
-    description:
-      "Learn how to create design harmony and why it's important for your projects.",
-    date: "2024-08-07",
-  },
-  {
-    id: 4,
-    image: "/posts/performance-boost.webp",
-    title: "Performance boost",
-    description:
-      "Discover how to boost your website's performance and make it load faster.",
-    date: "2024-08-10",
-  },
-];
-
-export default function News() {
+export default function News({ posts = mock.posts }) {
   return (
     <section className={cn("section")}>
       <TextMarquee>News.</TextMarquee>
@@ -57,7 +23,7 @@ export default function News() {
       </div>
 
       <div className={styles.posts}>
-        {posts.map((post, index) => (
+        {posts.slice(0, 4).map((post, index) => (
           <NewsPost key={index} post={post} />
         ))}
       </div>

@@ -14,6 +14,13 @@
   fill: var(--black);
 }
 
+.posts {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 80px;
+}
+
 @media (max-width: 1024px) {
   .content {
     margin: 64px auto 0;
@@ -23,6 +30,11 @@
     font-size: 20px;
     line-height: 32px;
     letter-spacing: -0.32px;
+  }
+
+  .posts {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 64px;
   }
 }
 
@@ -42,5 +54,10 @@
   .content {
     flex-direction: column;
     gap: 32px;
+  }
+
+  .posts {
+    grid-template-columns: 1fr;
+    row-gap: 48px;
   }
 }

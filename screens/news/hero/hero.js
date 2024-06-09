@@ -5,8 +5,10 @@ import cn from "classnames";
 import styles from "./hero.module.css";
 import TextMarquee from "@/components/text-marquee";
 import AnimatedButton from "@/components/animated-button";
+import mock from "@/constants/mock";
+import NewsPost from "@/components/news-post";
 
-export default function Hero() {
+export default function Hero({ posts = mock.posts }) {
   const handleScroll = () => {
     const section = document.querySelector("#news");
     section.scrollIntoView({ behavior: "smooth" });
@@ -25,6 +27,12 @@ export default function Hero() {
             practices shaping the digital landscape.
           </p>
         </div>
+      </div>
+
+      <div className={styles.posts}>
+        {posts.map((post, index) => (
+          <NewsPost key={index} post={post} />
+        ))}
       </div>
     </section>
   );

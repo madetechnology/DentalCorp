@@ -44,6 +44,74 @@ const works = [
   },
 ];
 
+const posts = [
+  {
+    id: 1,
+    image: "/posts/front-end-trends.webp",
+    title: "Front-end trends",
+    description:
+      "Learn about the latest front-end trends and how they can help you build better websites.",
+    date: "2024-08-01",
+  },
+  {
+    id: 2,
+    image: "/posts/ui-design-essentials.webp",
+    title: "UI design essentials",
+    description:
+      "Discover the essentials of UI design and how they can help you create better user experiences.",
+    date: "2024-08-04",
+  },
+  {
+    id: 3,
+    image: "/posts/design-harmony.webp",
+    title: "Design harmony",
+    description:
+      "Learn how to create design harmony and why it's important for your projects.",
+    date: "2024-08-07",
+  },
+  {
+    id: 4,
+    image: "/posts/performance-boost.webp",
+    title: "Performance boost",
+    description:
+      "Discover how to boost your website's performance and make it load faster.",
+    date: "2024-08-10",
+  },
+  {
+    id: 5,
+    image: "/posts/ux-mastery.webp",
+    title: "UX Mastery",
+    description:
+      "Master the art of UX design with these tips and tricks from the pros.",
+    date: "2024-08-13",
+  },
+  {
+    id: 6,
+    image: "/posts/responsive-design.webp",
+    title: "Responsive Design",
+    description:
+      "Learn how to create responsive designs that look great on any device.",
+    date: "2024-08-16",
+  },
+  {
+    id: 7,
+    image: "/posts/frontend-frameworks.webp",
+    title: "Frontend Frameworks",
+    description:
+      "Discover the top frontend frameworks and how they can help you build better websites.",
+    date: "2024-08-19",
+  },
+  {
+    id: 8,
+    image: "/posts/web-trends.webp",
+    title: "Web trends",
+    description:
+      "Stay up to date with the latest web trends and how they can help you stay ahead of the competition.",
+    date: "2024-08-22",
+  },
+];
+
 export default {
   works,
+  posts,
 };

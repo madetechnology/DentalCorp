@@ -28,12 +28,20 @@
   padding-left: 48px;
 }
 
+.post:nth-child(5) .content {
+  padding-left: 48px;
+}
+
 .title {
   margin-top: 4px;
 }
 
 @media (max-width: 1024px) {
   .post:nth-child(3) .content {
+    padding-left: 48px;
+  }
+
+  .post:nth-child(7) .content {
     padding-left: 48px;
   }
 }
@@ -52,6 +60,14 @@
   }
 
   .post:nth-child(3) .content {
+    padding-left: 24px;
+  }
+
+  .post:nth-child(5) .content {
+    padding-left: 24px;
+  }
+
+  .post:nth-child(7) .content {
     padding-left: 24px;
   }
 }
