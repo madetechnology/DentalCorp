@@ -18,12 +18,14 @@ export default function Video() {
       <Modal visible={visible} onClose={() => setVisible(false)}>
         <div className={styles.video}>
           <iframe
-            title="video"
-            src="https://www.youtube.com/embed/4A2b6wJf6jw"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/ZieW_OSkuiQ?si=BtZDi5peIgbLJiBK"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           />
+          Hello
         </div>
       </Modal>
     </section>
