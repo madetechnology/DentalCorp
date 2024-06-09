@@ -1,0 +1,21 @@
+.section {
+  height: 70vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (max-width: 390px) {
+  .section {
+    height: 60vh;
+  }
+}
