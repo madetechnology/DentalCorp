@@ -10,30 +10,9 @@
   color: var(--slate-500);
 }
 
-.stack {
-  margin-top: 80px;
-  display: flex;
-  align-items: center;
-  gap: 16px;
-}
-
-.socials {
-  display: flex;
-  gap: 8px;
-}
-
-.social svg {
-  fill: var(--slate-400);
-  transition: fill 0.2s;
-}
-
-.social svg:hover {
-  fill: var(--black);
-}
-
 .image {
   position: relative;
-  margin-top: 48px;
+  margin-top: 80px;
   width: 100%;
   height: 600px;
 }
@@ -59,11 +38,8 @@
     letter-spacing: -0.32px;
   }
 
-  .stack {
-    margin-top: 64px;
-  }
-
   .image {
+    margin-top: 64px;
     height: 600px;
   }
 
@@ -83,11 +59,8 @@
     margin-top: 48px;
   }
 
-  .stack {
-    margin-top: 48px;
-  }
-
   .image {
+    margin-top: 48px;
     height: 500px;
   }
 

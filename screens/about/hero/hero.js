@@ -54,26 +54,6 @@ export default function Hero() {
             grow online.
           </p>
         </div>
-
-        <div className={styles.stack}>
-          <p className={cn("paragraph-large", styles.text)}>Find us on:</p>
-
-          <div className={styles.socials}>
-            {socials.map((social, index) => (
-              <Magnetic>
-                <a
-                  key={index}
-                  href={social.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={styles.social}
-                >
-                  {social.icon}
-                </a>
-              </Magnetic>
-            ))}
-          </div>
-        </div>
       </div>
 
       <div className={styles.image}>
