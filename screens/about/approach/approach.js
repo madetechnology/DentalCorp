@@ -1,7 +1,6 @@
 import React from "react";
 import cn from "classnames";
 import styles from "./approach.module.css";
-import ScrollAnimatedText from "@/components/scroll-animated-text";
 
 export default function Approach() {
   return (

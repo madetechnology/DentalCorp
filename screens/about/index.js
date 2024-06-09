@@ -6,6 +6,7 @@ import Video from "./video";
 import Team from "./team";
 import Clients from "../universal/clients";
 import Approach from "./approach";
+import CTA from "../universal/cta";
 
 export default function AboutPage() {
   return (
@@ -17,6 +18,7 @@ export default function AboutPage() {
       <Team />
       <Approach />
       <Clients />
+      <CTA />
     </Layout>
   );
 }
