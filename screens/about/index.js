@@ -3,6 +3,7 @@ import Hero from "./hero";
 import Story from "./story";
 import Slogan from "../universal/slogan";
 import Video from "./video";
+import Team from "./team";
 
 export default function AboutPage() {
   return (
@@ -11,6 +12,7 @@ export default function AboutPage() {
       <Story />
       <Slogan />
       <Video />
+      <Team />
     </Layout>
   );
 }
