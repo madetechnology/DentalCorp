@@ -61,7 +61,7 @@ export default function ContactForm() {
 
       {state.succeeded && (
         <div className={cn("paragraph-small", styles.success)}>
-          Thanks for reaching out! We'll get back to you soon.
+          {"Thanks for reaching out! We'll get back to you soon."}
         </div>
       )}
     </>

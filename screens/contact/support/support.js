@@ -2,7 +2,6 @@ import React from "react";
 import cn from "classnames";
 import styles from "./support.module.css";
 import TextMarquee from "@/components/text-marquee";
-import NewsPost from "@/components/news-post";
 import mock from "@/constants/mock";
 import TeamMember from "@/components/team-member";
 
