@@ -9,7 +9,7 @@ const links = [
     id: 1,
     title: "Services",
     links: [
-      { id: 1, title: "Work", url: "/about" },
+      { id: 1, title: "Works", url: "/works" },
       { id: 2, title: "About", url: "/about" },
       { id: 3, title: "Services", url: "/services" },
       { id: 4, title: "Approach", url: "/approach" },
