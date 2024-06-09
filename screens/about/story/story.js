@@ -5,7 +5,7 @@ import ScrollAnimatedText from "@/components/scroll-animated-text";
 
 export default function Story() {
   return (
-    <section className={cn("section")}>
+    <section id="our-story" className={cn("section")}>
       <div className={cn("container")}>
         <div className={styles.content}>
           <ScrollAnimatedText size="heading-3">

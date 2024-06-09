@@ -9,7 +9,7 @@ import TextMarquee from "@/components/text-marquee";
 
 export default function Hero() {
   const handleScroll = () => {
-    const section = document.querySelector("#works");
+    const section = document.querySelector("#our-story");
     section.scrollIntoView({ behavior: "smooth" });
   };
 
@@ -20,7 +20,7 @@ export default function Hero() {
       <div className={cn("container", styles.container)}>
         <div className={styles.content}>
           <AnimatedButton handleClick={handleScroll}>
-            <p className={cn("label-large")}>Learn more</p>
+            <p className={cn("label-large")}>View our story</p>
           </AnimatedButton>
           <p className={cn("paragraph-2x-large", styles.description)}>
             Where creativity meets technology. We are a digital agency that

@@ -5,6 +5,7 @@ import cn from "classnames";
 import styles from "./about-us.module.css";
 import AnimatedButton from "@/components/animated-button";
 import ScrollAnimatedText from "@/components/scroll-animated-text";
+import Link from "next/link";
 
 export default function AboutUs() {
   return (
@@ -15,9 +16,11 @@ export default function AboutUs() {
             Timeless. ventures through the digital wilderness, guiding your
             brand to flourish in the vast online ecosystem.
           </ScrollAnimatedText>
-          <AnimatedButton>
-            <p className={cn("label-large")}>Learn More</p>
-          </AnimatedButton>
+          <Link href="/about">
+            <AnimatedButton>
+              <p className={cn("label-large")}>Learn More</p>
+            </AnimatedButton>
+          </Link>
         </div>
       </div>
     </section>

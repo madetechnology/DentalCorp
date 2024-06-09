@@ -32,7 +32,7 @@ const steps = [
 
 export default function Steps() {
   return (
-    <section className={cn("section")}>
+    <section id="steps" className={cn("section")}>
       <div className={cn("container")}>
         <div className={styles.content}>
           <ScrollAnimatedText size="heading-3">

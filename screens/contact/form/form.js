@@ -8,7 +8,7 @@ import ContactForm from "@/components/contact-form";
 
 export default function Form() {
   return (
-    <section className={cn("section")}>
+    <section id="contact-form" className={cn("section")}>
       <div className={cn("container")}>
         <div className={styles.content}>
           <ScrollAnimatedText size="heading-3">

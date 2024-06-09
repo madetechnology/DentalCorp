@@ -60,7 +60,7 @@ const services = [
 
 export default function Services({ extended }) {
   return (
-    <section className={cn("section")}>
+    <section id="services" className={cn("section")}>
       <TextMarquee>Services.</TextMarquee>
       <div className={cn("container")}>
         <div className={styles.content}>

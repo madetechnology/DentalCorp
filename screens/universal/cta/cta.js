@@ -3,6 +3,7 @@ import cn from "classnames";
 import styles from "./cta.module.css";
 import icons from "@/constants/icons";
 import ScrollAnimatedText from "@/components/scroll-animated-text";
+import Link from "next/link";
 
 export default function CTA() {
   return (
@@ -14,9 +15,9 @@ export default function CTA() {
             help you achieve your goals.
           </ScrollAnimatedText>
 
-          <button className={cn("button-stroke", styles.button)}>
+          <Link href="/contact" className={cn("button-stroke", styles.button)}>
             Reach out {icons.ArrowRight}
-          </button>
+          </Link>
         </div>
       </div>
     </section>

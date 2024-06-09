@@ -3,6 +3,7 @@ import cn from "classnames";
 import styles from "./slogan.module.css";
 import icons from "@/constants/icons";
 import ScrollAnimatedText from "@/components/scroll-animated-text";
+import Link from "next/link";
 
 export default function Slogan() {
   return (
@@ -13,9 +14,9 @@ export default function Slogan() {
             Traversing the digital wilderness is our expertise.
           </ScrollAnimatedText>
 
-          <button className={cn("button-stroke", styles.button)}>
+          <Link href="/contact" className={cn("button-stroke", styles.button)}>
             Get in touch {icons.ArrowRight}
-          </button>
+          </Link>
         </div>
       </div>
     </section>

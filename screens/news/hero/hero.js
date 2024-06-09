@@ -10,7 +10,7 @@ import NewsPost from "@/components/news-post";
 
 export default function Hero({ posts = mock.posts }) {
   const handleScroll = () => {
-    const section = document.querySelector("#news");
+    const section = document.querySelector("#posts");
     section.scrollIntoView({ behavior: "smooth" });
   };
 
@@ -29,7 +29,7 @@ export default function Hero({ posts = mock.posts }) {
         </div>
       </div>
 
-      <div className={styles.posts}>
+      <div id="posts" className={styles.posts}>
         {posts.map((post, index) => (
           <NewsPost key={index} post={post} />
         ))}

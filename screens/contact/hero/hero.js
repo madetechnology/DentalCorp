@@ -9,7 +9,7 @@ import TextMarquee from "@/components/text-marquee";
 
 export default function Hero() {
   const handleScroll = () => {
-    const section = document.querySelector("#works");
+    const section = document.querySelector("#contact-form");
     section.scrollIntoView({ behavior: "smooth" });
   };
 

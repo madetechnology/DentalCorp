@@ -22,7 +22,7 @@ export default function Team({ members = mock.members }) {
       </div>
 
       <div className={styles.members}>
-        {members.map((member) => (
+        {members.slice(0, 4).map((member) => (
           <TeamMember key={member.id} member={member} />
         ))}
       </div>
