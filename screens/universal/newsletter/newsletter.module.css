@@ -1,0 +1,34 @@
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.input {
+  position: relative;
+  margin-top: 48px;
+}
+
+.input input {
+  color: var(--black);
+  width: 100%;
+  padding: 24px 0;
+  border-bottom: 1px solid var(--slate-200);
+}
+
+.input input::placeholder {
+  color: var(--slate-500);
+}
+
+.button {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.button svg {
+  width: 38px;
+  height: 38px;
+  stroke: var(--black);
+}
