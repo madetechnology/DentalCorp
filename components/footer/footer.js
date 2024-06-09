@@ -2,6 +2,7 @@ import React from "react";
 import cn from "classnames";
 import styles from "./footer.module.css";
 import TextMarquee from "../text-marquee";
+import Link from "next/link";
 
 const links = [
   {
@@ -44,9 +45,12 @@ export default function Footer() {
         </TextMarquee>
         <div className={cn("container", styles.container)}>
           <div className={styles.content}>
-            <button className={cn("button-stroke", styles.button)}>
+            <Link
+              href="/contact"
+              className={cn("button-stroke", styles.button)}
+            >
               Get in touch
-            </button>
+            </Link>
             <div className={cn("paragraph-x-large", styles.description)}>
               Welcome to our design and development studio, where creativity
               meets expertise to shape digital brilliance.
