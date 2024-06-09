@@ -4,6 +4,8 @@ import Story from "./story";
 import Slogan from "../universal/slogan";
 import Video from "./video";
 import Team from "./team";
+import Clients from "../universal/clients";
+import Approach from "./approach";
 
 export default function AboutPage() {
   return (
@@ -13,6 +15,8 @@ export default function AboutPage() {
       <Slogan />
       <Video />
       <Team />
+      <Approach />
+      <Clients />
     </Layout>
   );
 }
