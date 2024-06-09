@@ -1,0 +1,39 @@
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.description {
+  color: var(--slate-500);
+}
+
+.steps {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 80px;
+}
+
+.description {
+  margin-top: 24px;
+}
+
+@media (max-width: 1024px) {
+  .steps {
+    margin-top: 64px;
+    gap: 64px;
+  }
+}
+
+@media (max-width: 810px) {
+  .steps {
+    gap: 48px;
+  }
+}
+
+@media (max-width: 390px) {
+  .steps {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+}
