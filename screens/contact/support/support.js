@@ -1,29 +1,30 @@
 import React from "react";
 import cn from "classnames";
-import styles from "./team.module.css";
+import styles from "./support.module.css";
 import TextMarquee from "@/components/text-marquee";
-import TeamMember from "@/components/team-member";
+import NewsPost from "@/components/news-post";
 import mock from "@/constants/mock";
+import TeamMember from "@/components/team-member";
 
-export default function Team({ members = mock.members }) {
+export default function Support({ members = mock.members }) {
   return (
     <section className={cn("section")}>
-      <TextMarquee>Our team.</TextMarquee>
+      <TextMarquee>Support.</TextMarquee>
       <div className={cn("container")}>
         <div className={styles.content}>
           <div className={cn("subheading-x-large", styles.title)}>
-            Meet the team
+            Support team
           </div>
           <p className={cn("paragraph-x-large", styles.description)}>
-            We are a group of designers, engineers, and product managers who are
-            dedicated to creating the best possible experience for our users.
+            Our support team is dedicated to ensuring that you receive the
+            assistance and guidance you need, whenever you need it.
           </p>
         </div>
       </div>
 
       <div className={styles.members}>
-        {members.map((member) => (
-          <TeamMember key={member.id} member={member} />
+        {members.slice(4, 6).map((member, index) => (
+          <TeamMember key={index} member={member} className={styles.member} />
         ))}
       </div>
     </section>

@@ -62,9 +62,12 @@ export default function Header() {
         </nav>
 
         <div className={styles.wrapper}>
-          <button className={cn("button-stroke-small", styles.button)}>
+          <Link
+            href="/contact"
+            className={cn("button-stroke-small", styles.button)}
+          >
             Get in touch
-          </button>
+          </Link>
 
           <Burger
             className={styles.burger}

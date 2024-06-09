@@ -111,7 +111,47 @@ const posts = [
   },
 ];
 
+const members = [
+  {
+    id: 1,
+    name: "Jamez Rodriguez",
+    title: "Senior developer",
+    image: "/images/team/james-rodriguez.webp",
+  },
+  {
+    id: 2,
+    name: "Emily Chen",
+    title: "UI/UX designer",
+    image: "/images/team/emily-chen.webp",
+  },
+  {
+    id: 3,
+    name: "David Patel",
+    title: "Product manager",
+    image: "/images/team/david-patel.webp",
+  },
+  {
+    id: 4,
+    name: "Sara Miller",
+    title: "Software engineer",
+    image: "/images/team/sarah-miller.webp",
+  },
+  {
+    id: 5,
+    name: "Emily Davis",
+    title: "Customer Support Specialist",
+    image: "/images/team/emily-davis.webp",
+  },
+  {
+    id: 6,
+    name: "Emma Parker",
+    title: "Technical Support Engineer",
+    image: "/images/team/emma-parker.webp",
+  },
+];
+
 export default {
   works,
   posts,
+  members,
 };

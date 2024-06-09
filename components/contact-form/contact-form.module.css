@@ -1,0 +1,46 @@
+.form {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.input {
+  position: relative;
+  border-bottom: 1px solid var(--slate-200);
+  transition: border-color 0.2s;
+}
+
+.input:hover {
+  border-color: var(--black);
+}
+
+.input input {
+  color: var(--black);
+  width: 100%;
+  padding: 24px 0;
+}
+
+.input input::placeholder {
+  color: var(--slate-500);
+}
+
+.input input:focus {
+  background-color: none;
+}
+
+.input textarea {
+  border: none;
+  color: var(--black);
+  width: 100%;
+  padding: 24px 0;
+}
+
+.button {
+  margin-top: 24px;
+  align-self: flex-start;
+}
+
+.success {
+  margin-top: 8px;
+}
