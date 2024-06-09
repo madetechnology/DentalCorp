@@ -5,33 +5,7 @@ import cn from "classnames";
 import styles from "./hero.module.css";
 import AnimatedButton from "@/components/animated-button";
 import Mouse from "@/components/mouse";
-import icons from "@/constants/icons";
-import Magnetic from "@/components/magnetic";
 import TextMarquee from "@/components/text-marquee";
-
-const socials = [
-  {
-    name: "Instagram",
-    url: "https://www.instagram.com/",
-    icon: icons.Instagram,
-  },
-  {
-    name: "Twitter",
-    url: "https://twitter.com/",
-    icon: icons.Twitter,
-  },
-  {
-    name: "Linkedin",
-    url: "https://linkedin.com/",
-    icon: icons.Linkedin,
-  },
-
-  {
-    name: "Dribbble",
-    url: "https://dribbble.com/",
-    icon: icons.Dribbble,
-  },
-];
 
 export default function Hero() {
   const handleScroll = () => {
