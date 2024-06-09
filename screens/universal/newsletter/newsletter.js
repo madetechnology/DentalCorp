@@ -3,6 +3,7 @@ import cn from "classnames";
 import styles from "./newsletter.module.css";
 import ScrollAnimatedText from "@/components/scroll-animated-text";
 import icons from "@/constants/icons";
+import Magnetic from "@/components/magnetic";
 
 export default function Newsletter() {
   return (
@@ -21,7 +22,9 @@ export default function Newsletter() {
               placeholder="Enter your email address"
             />
 
-            <button className={cn(styles.button)}>{icons.ArrowRight}</button>
+            <Magnetic>
+              <button className={cn(styles.button)}>{icons.ArrowRight}</button>
+            </Magnetic>
           </div>
         </div>
       </div>
