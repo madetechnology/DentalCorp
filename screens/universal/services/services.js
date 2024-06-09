@@ -10,22 +10,55 @@ const services = [
     title: "Strategy",
     description:
       "Navigate the digital landscape with confidence. Our strategic insights pave the path to success, blending market expertise with tailored solutions to elevate your brand.",
+    items: [
+      {
+        title: "Market Research",
+      },
+      {
+        title: "Digital Strategy",
+      },
+      {
+        title: "Communication Strategy",
+      },
+    ],
   },
   {
     number: "02",
     title: "Design",
     description:
       "Where creativity meets functionality. Our designs breathe life into ideas, crafting visually stunning experiences that captivate audiences and leave a lasting impression.",
+    items: [
+      {
+        title: "User Experience Design",
+      },
+      {
+        title: "User Interface Design",
+      },
+      {
+        title: "Animation and Interaction Design",
+      },
+    ],
   },
   {
     number: "03",
     title: "Development",
     description:
       "Turning concepts into reality. Our expert developers bring innovation to life, crafting robust solutions that stand the test of time and propel your brand forward in the digital realm.",
+    items: [
+      {
+        title: "Web Development",
+      },
+      {
+        title: "Mobile Development",
+      },
+      {
+        title: "E-commerce Development",
+      },
+    ],
   },
 ];
 
-export default function Services() {
+export default function Services({ extended }) {
   return (
     <section className={cn("section")}>
       <TextMarquee>Services.</TextMarquee>
@@ -41,7 +74,7 @@ export default function Services() {
 
         <div className={styles.services}>
           {services.map((service, index) => (
-            <Service key={index} service={service} />
+            <Service key={index} service={service} extended={extended} />
           ))}
         </div>
       </div>

@@ -2,7 +2,6 @@ import React from "react";
 import cn from "classnames";
 import styles from "./facts.module.css";
 import TextMarquee from "@/components/text-marquee";
-import logos from "@/constants/logos";
 import Fact from "@/components/fact";
 
 const facts = [
