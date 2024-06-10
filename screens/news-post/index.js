@@ -1,10 +1,10 @@
 import Layout from "@/components/Layout";
 import Content from "./content";
 
-export default function NewsPostPage() {
+export default function NewsPostPage({ post }) {
   return (
     <Layout>
-      <Content />
+      <Content post={post} />
     </Layout>
   );
 }

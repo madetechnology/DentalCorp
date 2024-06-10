@@ -147,6 +147,23 @@ const PlayRight = (
   </svg>
 );
 
+const ArrowLeft = (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M5.35156 12H19.7518" stroke-width="1.5" stroke-linecap="square" />
+    <path
+      d="M10.8 18.0241L4.75 12.0001L10.8 5.9751"
+      stroke-width="1.5"
+      stroke-linecap="square"
+    />
+  </svg>
+);
+
 export default {
   Instagram,
   Facebook,
@@ -154,5 +171,6 @@ export default {
   Dribbble,
   Twitter,
   ArrowRight,
+  ArrowLeft,
   PlayRight,
 };
