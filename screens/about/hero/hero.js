@@ -8,18 +8,13 @@ import Mouse from "@/components/mouse";
 import TextMarquee from "@/components/text-marquee";
 
 export default function Hero() {
-  const handleScroll = () => {
-    const section = document.querySelector("#our-story");
-    section.scrollIntoView({ behavior: "smooth" });
-  };
-
   return (
     <section className={cn("section")}>
       <TextMarquee>About us.</TextMarquee>
 
       <div className={cn("container", styles.container)}>
         <div className={styles.content}>
-          <AnimatedButton handleClick={handleScroll}>
+          <AnimatedButton anchor="our-story">
             <p className={cn("label-large")}>View our story</p>
           </AnimatedButton>
           <p className={cn("paragraph-2x-large", styles.description)}>

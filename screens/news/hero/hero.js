@@ -1,25 +1,20 @@
-"use client";
-
 import React from "react";
 import cn from "classnames";
 import styles from "./hero.module.css";
 import TextMarquee from "@/components/text-marquee";
 import AnimatedButton from "@/components/animated-button";
-import mock from "@/constants/mock";
 import NewsPost from "@/components/news-post";
+import { getSortedPosts } from "@/lib/posts";
 
-export default function Hero({ posts = mock.posts }) {
-  const handleScroll = () => {
-    const section = document.querySelector("#posts");
-    section.scrollIntoView({ behavior: "smooth" });
-  };
+export default function Hero() {
+  const posts = getSortedPosts();
 
   return (
     <section className={cn("section")}>
       <TextMarquee>News.</TextMarquee>
       <div className={cn("container")}>
         <div className={styles.content}>
-          <AnimatedButton handleClick={handleScroll}>
+          <AnimatedButton anchor="posts">
             <p className={cn("label-large")}>View more</p>
           </AnimatedButton>
           <p className={cn("paragraph-2x-large", styles.description)}>

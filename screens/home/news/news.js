@@ -3,9 +3,13 @@ import cn from "classnames";
 import styles from "./news.module.css";
 import TextMarquee from "@/components/text-marquee";
 import NewsPost from "@/components/news-post";
-import mock from "@/constants/mock";
+import { getSortedPosts } from "@/lib/posts";
 
-export default function News({ posts = mock.posts }) {
+export default function News() {
+  const posts = getSortedPosts();
+
+  console.log(posts);
+
   return (
     <section className={cn("section")}>
       <TextMarquee>News.</TextMarquee>

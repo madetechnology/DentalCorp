@@ -6,7 +6,7 @@ import gsap from "gsap";
 import Magnetic from "../magnetic";
 
 export default function AnimatedButton({
-  handleClick,
+  anchor,
   children,
   backgroundColor = "var(--white)",
   ...attributes
@@ -41,6 +41,11 @@ export default function AnimatedButton({
     }, 300);
   };
 
+  const handleScroll = () => {
+    const posts = document.getElementById(anchor);
+    posts.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <Magnetic>
       <div
@@ -51,7 +56,7 @@ export default function AnimatedButton({
         onMouseLeave={() => {
           manageMouseLeave();
         }}
-        onClick={handleClick}
+        onClick={handleScroll}
         {...attributes}
       >
         {children}
