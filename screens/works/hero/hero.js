@@ -3,10 +3,11 @@ import cn from "classnames";
 import styles from "./hero.module.css";
 import TextMarquee from "@/components/text-marquee";
 import AnimatedButton from "@/components/animated-button";
-import mock from "@/constants/mock";
 import Work from "@/components/work";
+import { getSortedWorks } from "@/lib/works";
 
-export default function Hero({ works = mock.works }) {
+export default function Hero() {
+  const works = getSortedWorks();
   return (
     <section className={cn("section")}>
       <TextMarquee>Our work.</TextMarquee>
