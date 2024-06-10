@@ -1,5 +1,3 @@
-"use client";
-
 import React from "react";
 import cn from "classnames";
 import styles from "./hero.module.css";
@@ -34,18 +32,13 @@ const socials = [
 ];
 
 export default function Hero() {
-  const handleScroll = () => {
-    const section = document.querySelector("#works");
-    section.scrollIntoView({ behavior: "smooth" });
-  };
-
   return (
     <section className={cn("section")}>
       <TextMarquee>Timeless.</TextMarquee>
 
       <div className={cn("container", styles.container)}>
         <div className={styles.content}>
-          <AnimatedButton handleClick={handleScroll}>
+          <AnimatedButton anchor="works">
             <p className={cn("label-large")}>See our work</p>
           </AnimatedButton>
           <p className={cn("paragraph-2x-large", styles.description)}>
