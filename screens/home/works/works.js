@@ -5,9 +5,11 @@ import TextMarquee from "@/components/text-marquee";
 import Work from "@/components/work";
 import icons from "@/constants/icons";
 import Link from "next/link";
-import mock from "@/constants/mock";
+import { getSortedWorks } from "@/lib/works";
 
-export default function Works({ works = mock.works }) {
+export default function Works() {
+  const works = getSortedWorks();
+
   return (
     <section id="works" className={cn("section")}>
       <TextMarquee>Our work.</TextMarquee>

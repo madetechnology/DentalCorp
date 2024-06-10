@@ -2,6 +2,7 @@ import React from "react";
 import cn from "classnames";
 import styles from "./work.module.css";
 import Magnetic from "../magnetic";
+import Link from "next/link";
 
 export default function Work({ work }) {
   return (
@@ -13,7 +14,7 @@ export default function Work({ work }) {
         </p>
       </div>
 
-      <div className={styles.image}>
+      <Link href={`/work/${work.id}`} className={styles.image}>
         <Magnetic>
           <div className={styles.wrapper}>
             <button className={cn("label-large", styles.button)}>View</button>
@@ -21,7 +22,7 @@ export default function Work({ work }) {
         </Magnetic>
 
         <img src={work.image} alt={work.title} />
-      </div>
+      </Link>
     </div>
   );
 }
