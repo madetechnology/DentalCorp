@@ -1,7 +1,7 @@
 ---
 image: "/posts/performance-boost.webp"
 title: "Web performance"
-date: "20-03-2024"
+date: "09-03-2024"
 ---
 
 ## Enhancing Web Performance in 2024
