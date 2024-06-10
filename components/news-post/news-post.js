@@ -1,6 +1,7 @@
 import React from "react";
 import cn from "classnames";
 import styles from "./news-post.module.css";
+import Link from "next/link";
 
 export default function NewsPost({ post }) {
   const formatDate = (dateString) => {
@@ -14,9 +15,11 @@ export default function NewsPost({ post }) {
 
   return (
     <div className={styles.post}>
-      <div className={styles.image}>
-        <img src={post.image} alt="News post" />
-      </div>
+      <Link href={`/posts/${post.id}`}>
+        <div className={styles.image}>
+          <img src={post.image} alt="News post" />
+        </div>
+      </Link>
 
       <div className={styles.content}>
         <p className={cn("paragraph-medium", styles.date)}>
