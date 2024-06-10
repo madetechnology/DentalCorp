@@ -20,10 +20,10 @@ const links = [
     id: 2,
     title: "Socials",
     links: [
-      { id: 6, title: "Facebook", url: "/facebook" },
-      { id: 7, title: "Instagram", url: "/instagram" },
-      { id: 8, title: "Twitter", url: "/twitter" },
-      { id: 9, title: "LinkedIn", url: "/linkedin" },
+      { id: 6, title: "Facebook", url: "www.facebook.com/" },
+      { id: 7, title: "Instagram", url: "www.instagram.com/" },
+      { id: 8, title: "Twitter", url: "www.twitter.com" },
+      { id: 9, title: "LinkedIn", url: "www.linkedin.com" },
     ],
   },
 ];
