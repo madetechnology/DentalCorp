@@ -18,7 +18,7 @@ export default function Content({ post }) {
     <section className={cn("section")}>
       <div className={cn("container")}>
         <div className={styles.content}>
-          <div className={cn("paragraph-medium", styles.title)}>
+          <div className={cn("paragraph-medium", styles.date)}>
             {formatDate(post.date)}
           </div>
           <h1 className={cn("heading-1", styles.title)}>{post.title}</h1>

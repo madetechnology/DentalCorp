@@ -4,6 +4,10 @@
   align-items: flex-start;
 }
 
+.date {
+  color: var(--slate-500);
+}
+
 .title {
   margin-top: 16px;
 }
