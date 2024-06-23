@@ -1,6 +1,7 @@
 ---
 image: "/posts/design-harmony.webp"
-title: "Design harmony"
+title: "From buying your first practice
+through to building a network"
 date: "10-04-2024"
 ---
 

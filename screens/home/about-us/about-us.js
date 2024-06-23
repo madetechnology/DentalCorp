@@ -13,8 +13,7 @@ export default function AboutUs() {
       <div className={cn("container")}>
         <div className={styles.content}>
           <ScrollAnimatedText size="heading-3">
-            Timeless. ventures through the digital wilderness, guiding your
-            brand to flourish in the vast online ecosystem.
+          Practices apply to nurses, not the other way round. Flip the script and enjoy the feeling when employers compete for you. It's a refreshing change!
           </ScrollAnimatedText>
           <Link href="/about">
             <AnimatedButton>

@@ -7,9 +7,9 @@ import Service from "@/components/service";
 const services = [
   {
     number: "01",
-    title: "Strategy",
+    title: "Strategic Recruitment",
     description:
-      "Navigate the digital landscape with confidence. Our strategic insights pave the path to success, blending market expertise with tailored solutions to elevate your brand.",
+      "Navigate the competitive landscape of dental staffing with confidence. Our strategic insights merge deep industry knowledge with customized recruitment solutions to place top dental assistants and elevate your practice.",
     items: [
       {
         title: "Market Research",
@@ -24,9 +24,9 @@ const services = [
   },
   {
     number: "02",
-    title: "Design",
+    title: "Innovative Design",
     description:
-      "Where creativity meets functionality. Our designs breathe life into ideas, crafting visually stunning experiences that captivate audiences and leave a lasting impression.",
+      "Where functionality meets healthcare needs. Our platform is designed to breathe life into your staffing strategy, creating visually appealing and user-friendly experiences that connect dental practices with the best assistants, leaving a lasting impression.",
     items: [
       {
         title: "User Experience Design",
@@ -41,9 +41,9 @@ const services = [
   },
   {
     number: "03",
-    title: "Development",
+    title: "Technical Development",
     description:
-      "Turning concepts into reality. Our expert developers bring innovation to life, crafting robust solutions that stand the test of time and propel your brand forward in the digital realm.",
+      "Turning staffing needs into seamless solutions. Our expert developers innovate the recruitment process, crafting robust platforms that stand the test of time and propel your dental practice forward in the ever-evolving world of healthcare.",
     items: [
       {
         title: "Web Development",

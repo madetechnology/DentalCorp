@@ -10,7 +10,7 @@ import TextMarquee from "@/components/text-marquee";
 export default function Hero() {
   return (
     <section className={cn("section")}>
-      <TextMarquee>Services.</TextMarquee>
+      <TextMarquee>Our Process.</TextMarquee>
 
       <div className={cn("container", styles.container)}>
         <div className={styles.content}>

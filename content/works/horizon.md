@@ -1,6 +1,6 @@
 ---
-title: "Horizon"
-description: "An innovative app that provides a seamless connection between freelancers and clients."
+title: "BEST PRACTICES, MEET THE BEST CLINICIANS"
+description: "Our algorithms make the smartest matches, then real-life human experts support each candidate and employer, making matches that stand the test of time."
 image: "/works/horizon.webp"
 date: "05-07-2024"
 ---

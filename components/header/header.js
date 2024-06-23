@@ -17,7 +17,7 @@ const links = [
     url: "/about",
   },
   {
-    label: "Services",
+    label: "Process",
     url: "/services",
   },
   {
@@ -38,7 +38,7 @@ export default function Header() {
     <header className={styles.header}>
       <div className={cn("container", styles.container)}>
         <Link href="/" className={cn("label-large", styles.logo)}>
-          Timeless.
+          Dental Org. NZ
         </Link>
 
         <nav

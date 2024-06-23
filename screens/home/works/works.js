@@ -12,15 +12,14 @@ export default function Works() {
 
   return (
     <section id="works" className={cn("section")}>
-      <TextMarquee>Our work.</TextMarquee>
+      <TextMarquee>The Hiring Process. </TextMarquee>
       <div className={cn("container", styles.container)}>
         <div className={styles.content}>
           <div className={cn("subheading-x-large", styles.title)}>
             Where the magic happens
           </div>
           <p className={cn("paragraph-x-large", styles.description)}>
-            A showcase of digital masterpieces, each a testament to our
-            creativity and expertise.
+          Top practices find outstanding Dentist and Dental Assistants with Dental Org. 
           </p>
         </div>
 

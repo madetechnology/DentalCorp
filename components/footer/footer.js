@@ -20,8 +20,8 @@ const links = [
     id: 2,
     title: "Socials",
     links: [
-      { id: 6, title: "Facebook", url: "www.facebook.com/" },
-      { id: 7, title: "Instagram", url: "www.instagram.com/" },
+      { id: 6, title: "Facebook", url: "www.facebook.com/dentalcarenz" },
+      { id: 7, title: "Instagram", url: "www.instagram.com/dentalcarenz" },
       { id: 8, title: "Twitter", url: "www.twitter.com" },
       { id: 9, title: "LinkedIn", url: "www.linkedin.com" },
     ],
@@ -83,7 +83,7 @@ export default function Footer() {
       <div className={styles.bottom}>
         <div className={cn("container", styles.copyright)}>
           <div className={cn("label-small", styles.copy)}>
-            © {currentYear} Timeless - All Rights Reserved.
+            © {currentYear} The Dental Corp NZ - All Rights Reserved.
           </div>
 
           <div className={styles.guides}>

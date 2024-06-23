@@ -10,7 +10,7 @@ import TextMarquee from "@/components/text-marquee";
 const socials = [
   {
     name: "Instagram",
-    url: "https://www.instagram.com/",
+    url: "https://www.instagram.com/dentalcarenz",
     icon: icons.Instagram,
   },
   {
@@ -34,7 +34,7 @@ const socials = [
 export default function Hero() {
   return (
     <section className={cn("section")}>
-      <TextMarquee>Timeless.</TextMarquee>
+      <TextMarquee>Dental NZ.</TextMarquee>
 
       <div className={cn("container", styles.container)}>
         <div className={styles.content}>
@@ -42,8 +42,8 @@ export default function Hero() {
             <p className={cn("label-large")}>See our work</p>
           </AnimatedButton>
           <p className={cn("paragraph-2x-large", styles.description)}>
-            Welcome to our design and development studio, where creativity meets
-            expertise to shape digital brilliance.
+          The New Way NZ Dental Professionals
+          Get Hired.
           </p>
         </div>
 
@@ -71,7 +71,7 @@ export default function Hero() {
       <div className={styles.image}>
         <Mouse className={styles.mouse} />
 
-        <img src="/images/hero-image.webp" alt="Hero" />
+        <img src="/images/hero-image.jpg" alt="Hero" />
       </div>
     </section>
   );

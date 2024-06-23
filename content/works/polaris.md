@@ -1,6 +1,6 @@
 ---
-title: "Polaris"
-description: "A powerful navigation app that ensures you never lose your way, whether on the road or exploring the great outdoors."
+title: "PRACTICES LOVE THE SPEED"
+description: "Reduce Days to Fill from the 93 day national average to less than 20 days — lowering costs and avoiding lost revenue. DentalCare has experienced, actively looking nurses and assistant. ready to commit to permanent roles."
 image: "/works/polaris.webp"
 date: "05-07-2024"
 ---

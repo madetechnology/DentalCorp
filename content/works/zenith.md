@@ -1,6 +1,6 @@
 ---
-title: "Zenith"
-description: "A productivity and time management tool designed to help you achieve your goals and maximize efficiency."
+title: "NURSES AND ASSISTANTS LOVE THE MODEL"
+description: "Practices apply to nurses, not the other way round. Flip the script and enjoy the feeling when employers compete for you. It's a refreshing change!"
 image: "/works/bonair.webp"
 date: "05-07-2024"
 ---

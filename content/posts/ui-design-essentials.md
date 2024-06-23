@@ -1,6 +1,6 @@
 ---
 image: "/posts/ui-design-essentials.webp"
-title: "UI design essentials"
+title: "Selling your practice - telling your team and your patients "
 date: "01-08-2024"
 ---
 

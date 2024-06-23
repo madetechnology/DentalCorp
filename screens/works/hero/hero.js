@@ -10,7 +10,7 @@ export default function Hero() {
   const works = getSortedWorks();
   return (
     <section className={cn("section")}>
-      <TextMarquee>Our work.</TextMarquee>
+      <TextMarquee>Process.</TextMarquee>
       <div className={cn("container")}>
         <div className={styles.content}>
           <AnimatedButton anchor="works">

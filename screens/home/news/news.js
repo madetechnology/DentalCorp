@@ -19,9 +19,7 @@ export default function News() {
             Stay informed, stay ahead
           </div>
           <p className={cn("paragraph-x-large", styles.description)}>
-            We are a team of creatives who are excited about unique ideas and
-            help digital and fin-tech companies to create amazing identity by
-            crafting top-notch UI/UX.
+          We are a dedicated team passionate about innovation and excellence in the dental industry. We specialize in helping dental practices and organizations strengthen their teams by connecting them with top-tier talent. Our focus is on creating seamless recruitment experiences that not only meet the unique needs of our clients but also ensure a perfect fit for their practice’s culture and values.
           </p>
         </div>
       </div>

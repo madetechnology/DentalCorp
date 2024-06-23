@@ -15,7 +15,7 @@ export default function HomePage() {
       <AboutUs />
       <Works />
       <Services />
-      <Clients />
+      {/* <Clients /> */}
       <Slogan />
       <News />
     </Layout>

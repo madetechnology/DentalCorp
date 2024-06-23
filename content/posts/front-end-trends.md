@@ -1,6 +1,6 @@
 ---
 image: "/posts/front-end-trends.webp"
-title: "Front-end trends"
+title: "Work to Residence Visa Pathways"
 date: "01-06-2024"
 ---
 
